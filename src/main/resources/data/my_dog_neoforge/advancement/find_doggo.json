@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "minecraft:wolf_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.find_doggo.title"
+    },
+    "description": {
+      "translate": "advancements.find_doggo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "find_doggo_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "old_growth_spruce_taiga"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

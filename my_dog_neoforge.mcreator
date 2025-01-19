@@ -1,0 +1,135 @@
+{
+  "mod_elements": [
+    {
+      "name": "NormalDoggo",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normal_doggo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/my_dog_neoforge/painting_variant/normal_doggo.json"
+        ]
+      }
+    },
+    {
+      "name": "ScaryDoggo",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scary_doggo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/my_dog_neoforge/painting_variant/scary_doggo.json"
+        ]
+      }
+    },
+    {
+      "name": "MysteriousHouse",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_house",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/my_dog_neoforge/worldgen/structure/mysterious_house.json",
+          "src/main/resources/data/my_dog_neoforge/worldgen/structure_set/mysterious_house.json",
+          "src/main/resources/data/my_dog_neoforge/worldgen/template_pool/mysterious_house.json"
+        ]
+      }
+    },
+    {
+      "name": "MyDogCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "my_dog_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FindDoggo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "find_doggo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/my_dog_neoforge/advancement/find_doggo.json"
+        ]
+      }
+    },
+    {
+      "name": "DoggoGoWoof",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doggo_go_woof",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rollylindenshnizzer/mydog/procedures/DoggoGoWoofProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SayHiToDoggo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "say_hi_to_doggo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/my_dog_neoforge/advancement/say_hi_to_doggo.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "painting.my_dog_neoforge.normal_doggo.author": "rollylindenshnizzer",
+      "advancements.find_doggo.descr": "Do you see it?",
+      "advancements.find_doggo.title": "Getting closer...",
+      "advancements.say_hi_to_doggo.title": "Hiiiii!!!!",
+      "painting.my_dog_neoforge.normal_doggo.title": "Normal Doggo",
+      "advancements.say_hi_to_doggo.descr": "Say hi to Doggo.",
+      "painting.my_dog_neoforge.scary_doggo.title": "Evil Doggo",
+      "painting.my_dog_neoforge.scary_doggo.author": "rollylindenshnizzer",
+      "item_group.my_dog_neoforge.my_dog_creative_tab": "My Dog"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "my_dog_neoforge",
+    "modName": "My Dog",
+    "version": "1.0.0",
+    "author": "rolan, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.rollylindenshnizzer.mydog"
+  },
+  "mcreatorVersion": 202400452410
+}

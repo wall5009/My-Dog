@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Hiiiii!!!!",
+    "achievementDescription": "Say hi to Doggo.",
+    "achievementIcon": {
+      "value": "Blocks.RED_FLOWER#0"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 10,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:FindDoggo"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"107\" y=\"52\"><next><block type=\"custom_trigger\"></block></next></block></xml>"
+  }
+}

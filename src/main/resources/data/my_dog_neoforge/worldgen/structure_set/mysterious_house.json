@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "my_dog_neoforge:mysterious_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 20,
+    "salt": 941430672
+  }
+}

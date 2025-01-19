@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "My Dog",
+    "icon": {
+      "value": "Items.SPAWN_EGG#95"
+    },
+    "showSearch": false
+  }
+}
